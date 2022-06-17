@@ -62,3 +62,4 @@ set  version(nfeske/api/stdcxx)                      2021-12-16
 set  version(nfeske/api/terminal_session)            2020-04-16
 set  version(nfeske/api/timer_session)               2021-04-19
 set  version(nfeske/api/vfs)                         2022-02-27
+set  version(mstein/api/pcsc-lite)                   2022-06-15

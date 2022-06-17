@@ -52,6 +52,11 @@ if {[using_api sdl]} {
 	lappend cmake_quirk_args "-DSDL_LIBRARY:STRING=':sdl.lib.so'"
 }
 
+if {[using_api pcsc-lite]} {
+
+	lappend include_dirs [file join [api_archive_dir pcsc-lite] include PCSC]
+}
+
 if {[using_api curl]} {
 
 	if {$arch == "x86_64"} {
